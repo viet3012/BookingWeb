@@ -1,0 +1,25 @@
+.city {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 70px;
+  justify-content: center;
+  gap: 25px;
+}
+
+.city-item {
+  display: inline-block;
+  position: relative;
+}
+
+.city-item__title {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+  font-size: 24px;
+}
+
+.city-item__image {
+  border-radius: 3%;
+}

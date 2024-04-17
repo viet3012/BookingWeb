@@ -1,0 +1,28 @@
+.navbar {
+  color: white;
+  background-color: #094b88;
+  height: 150px;
+}
+.navbar__title {
+  display: inline-block;
+  margin: 20px 0 30px 95px;
+}
+.navbar__buttons {
+  margin: 20px 95px 0 0;
+  float: right;
+}
+.navbar__button {
+  color: #094b88;
+  background-color: #e9ecef;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.navbar__button:hover {
+  background-color: white;
+}
+.navbar__icon {
+  padding: 20px 0;
+  margin-left: 95px;
+}

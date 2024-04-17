@@ -1,0 +1,30 @@
+.hotel__title {
+  margin: 40px 0 40px 95px;
+}
+
+.hotel__image {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 25px;
+}
+
+.hotel-item__link {
+  font-weight: bold;
+}
+
+.hotel-item__city {
+  margin-top: 10px;
+}
+
+.hotel-item__price {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.hotel-item__rate {
+  background-color: #094b88;
+  color: white;
+  padding: 2px;
+  margin-right: 10px;
+}

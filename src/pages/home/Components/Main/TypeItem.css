@@ -1,0 +1,28 @@
+.type__title {
+  margin: 40px 0 40px 95px;
+}
+
+.type__image {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+  gap: 25px;
+}
+
+.type-item {
+  display: inline-block;
+  position: relative;
+}
+
+.type-item__title {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  bottom: 30px;
+}
+
+.type-item__image {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
