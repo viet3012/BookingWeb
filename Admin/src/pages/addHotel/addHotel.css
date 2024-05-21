@@ -1,0 +1,15 @@
+.addHotel__button {
+  padding: 1rem 5rem;
+}
+.addHotel__form--item {
+  margin-top: 10px;
+}
+.room__options {
+  width: 100%;
+  padding: 10px 0 10px 5px;
+}
+
+.select {
+  display: block;
+  margin-top: 12px;
+}

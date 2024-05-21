@@ -1,0 +1,41 @@
+.h-90 {
+  height: 90vh !important;
+}
+
+.title {
+  color: #7048e8;
+  font-size: 1.5rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.sidebar__list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.sidebar__list ul li ul li {
+  padding: 0.2rem 0;
+}
+
+.sidebar_link .logo {
+  width: 1rem;
+  color: #7048e8;
+  margin-top: 4px;
+}
+
+.sidebar_link {
+  display: flex;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--gray-x);
+  transition: all 0.5s ease-in-out;
+  font-weight: 400;
+}
+
+.sidebar_link:hover {
+  color: #7048e8;
+}
